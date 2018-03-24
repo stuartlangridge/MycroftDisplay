@@ -37,17 +37,17 @@ Does the reverse, converting an `img_code` to an ASCII-art grid.
 
 ```
 
-grid = Mark1.to_grid("QIMHIAABIAMHAAAEAAIHEBIHAAEEMHEEAA")
+grid = Mark1.to_grid("QIMHIAABIAMHAAAEAAIHEBIHAAEEMHEEAA", fill='█',space='·')
 
 => '''
-................
-................
-#...#....#..###.
-##.##...#.#..#..
-#.#.#...###..#..
-#...#...#.#..#..
-#...#.#.#.#.###.
-................
+················
+················
+█···█····█··███·
+██·██···█·█··█··
+█·█·█···███··█··
+█···█···█·█··█··
+█···█·█·█·█·███·
+················
 '''
 ```
 
